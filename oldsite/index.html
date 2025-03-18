@@ -1,332 +1,324 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Me</title>
+	<meta charset="utf-8" />
+	<meta name="referrer" content="origin">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
 
+	<!-- Wrapper -->
+	<div id="wrapper" class="divided">
 
+		<!-- One -->
+		<section
+			class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+			<div class="content">
+				<h1>Hi</h1>
+				<p class="major">My name is Furkan Akmese and I'm a 26 year old software engineer, musician and amateur guitar builder from the Netherlands.
+					Keep scrolling if you wanna know more about me.
+				</p>
+				<ul class="actions stacked">
+					<li><a href="#first" class="button big wide smooth-scroll-middle">Read more</a></li>
+				</ul>
+			</div>
+			<div class="image">
+				<img src="images/Me.jpg" alt="" />
+			</div>
+		</section>
 
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>
-            
-                Furkan Akmese
-            
-            
-                
-                    
-                
-            
-        </title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Two -->
+		<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+			id="first">
+			<div class="content">
+				<h2>Professional life</h2>
+				<p> I graduated from Windesheim university of applied sciences, Zwolle in 2022 with a Bacholors degree in software engineering.
+					Before that I finished a vocational education in the same field and I've been working as a mobile app developer
+					for around six years now. I'm currently working for Textkernel as the sole mobile developer for the e-UUR app and all of it's related client apps.
+					
+					<br /><br />
+					I've worked with frameworks like React (Native) and Vue.js but I mostly develop iOS & Android 
+					apps in Flutter. I've done general backend programming in Python and PHP but I consider myself to be mostly a frontend developer.
+				</p>
+			</div>
+			<div class="image" style="height: 600px;">
+				<img src="images/fancy-me.jpg" alt="" style="height: 600px;" />
+			</div>
+		</section>
 
-        
-        <link rel="stylesheet" type="text/css" href="/static/Personalwagtailsite/Personalwagtailsite.css">
+		<!-- Three -->
+		<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+			<div class="content">
+				<h2>Music</h2>
+				<p>
+					I've been a mostly self-taught musician for over ten years. Music is my biggest passion and I'm always trying to grow and improve by learning new instruments, playing with other musicians and writing my own music.
+					My main instrument is guitar and besides just playing, I also enjoy building them.
+					My musical influences range from early blues players like Eric Clapton, Albert King and Stevie Ray Vaughan to bands like Van Halen and Aerosmith. I'm very versatile and love to play in many different genres, from bluegrass pickin' to hair metal. 
+					You can check out <a target="_blank" href="https://www.youtube.com/@Callmefurkan/videos">this link</a> to see some of my covers.
+				</p>
+			</div>
+			<div class="image" style="height: 600px;">
+				<img src="images/resonator_me.png" alt="" style="height: 600px;" />
+			</div>
+		</section>
+		<!-- Four -->
+		<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+			<div class="content">
+				<h2>Image Carousel</h2>
+				<p>Click on an image to view it in full size.</p>
+			</div>
+			<div class="carousel-container">
+				<div class="carousel">
+					<div class="carousel-item">
+						<img src="https://picsum.photos/400/250" alt="Image 1" class="carousel-image" />
+						<div class="carousel-text">Image 1 Description</div>
+					</div>
+					<div class="carousel-item">
+						<img src="https://picsum.photos/400/250" alt="Image 2" class="carousel-image" />
+						<div class="carousel-text">Image 2 Description</div>
+					</div>
+					<div class="carousel-item">
+						<img src="https://picsum.photos/400/250" alt="Image 3" class="carousel-image" />
+						<div class="carousel-text">Image 3 Description</div>
+					</div>
+					<div class="carousel-item">
+						<img src="https://picsum.photos/400/250" alt="Image 4" class="carousel-image" />
+						<div class="carousel-text">Image 4 Description</div>
+					</div>
+				</div>
+			</div>
+			<style>
+				.carousel-container {
+					overflow: hidden;
+					width: 100%;
+					position: relative;
+				}
 
-        
-            
-        
-    </head>
+				.carousel {
+					display: flex;
+					transition: transform 0.5s ease-in-out;
+				}
 
-    <body class="">
-        
-        
+				.carousel-item {
+					position: relative;
+					min-width: 300px;
+					height: 200px;
+					perspective: 1000px;
+				}
 
-<div class="header">
-	<ul class="header__nav">
-		
-  <li>
-    <a href="#aboutme" class="menu-item">About me</a>
-  </li>
+				.carousel-image, .carousel-text {
+					width: 100%;
+					height: 100%;
+					backface-visibility: hidden;
+					transition: transform 0.6s;
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
 
-  <li>
-    <a href="#developer" class="menu-item">Me as a software developer</a>
-  </li>
+				.carousel-image {
+					object-fit: cover;
+					cursor: pointer;
+				}
 
-  <li>
-    <a href="#projects" class="menu-item">Projects</a>
-  </li>
+				.carousel-text {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					background-color: rgba(0, 0, 0, 0.7);
+					color: white;
+					transform: rotateY(180deg);
+				}
 
-  <li>
-    <a href="#thiswebsite" class="menu-item">This website</a>
-  </li>
+				.carousel-item:hover .carousel-image {
+					transform: rotateY(180deg);
+				}
 
-  <li>
-    <a href="#contact" class="menu-item">Contact</a>
-  </li>
+				.carousel-item:hover .carousel-text {
+					transform: rotateY(0deg);
+				}
+			</style>
+			<script>
+				document.addEventListener('DOMContentLoaded', function () {
+					const carousel = document.querySelector('.carousel');
+					const images = document.querySelectorAll('.carousel-image');
+					let scrollAmount = 0;
+					let currentIndex = 0;
+					let autoScrollInterval;
 
-  <li>
-    <a href="#hobbies" class="menu-item">Hobbies</a>
-  </li>
+					function autoScroll() {
+						scrollAmount += 300;
+						if (scrollAmount >= carousel.scrollWidth) {
+							scrollAmount = 0;
+						}
+						carousel.style.transform = `translateX(-${scrollAmount}px)`;
+						currentIndex = (currentIndex + 1) % images.length;
+					}
 
-  <li>
-    <a href="#business" class="menu-item">Business</a>
-  </li>
+					function startAutoScroll() {
+						autoScrollInterval = setInterval(autoScroll, 3000);
+					}
 
+					function stopAutoScroll() {
+						clearInterval(autoScrollInterval);
+					}
 
-	</ul>
-</div>
+					startAutoScroll();
 
-        
-<div class="container">
-	<div class="row">
-		<div class="col">
-			
-				
+					images.forEach((image, index) => {
+						image.addEventListener('click', () => {
+							scrollAmount = index * 300;
+							carousel.style.transform = `translateX(-${scrollAmount}px)`;
+							currentIndex = index;
+						});
 
+						image.addEventListener('mouseover', stopAutoScroll);
+						image.addEventListener('mouseout', startAutoScroll);
+					});
+				});
+			</script>
+		</section>
+		<section class="wrapper style1 align-center">
+			<div class="inner">
+				<h2>My work</h2>
+				<p> Here are some of the projects I've worked on. If you want to see more you can check out
+					my Github, the link is at the bottom of the page. My music can be found on my Instagram which is also linked down below </p>
+			</div>
 
-<div class="welcome-container" data-id="home">
-  <div class="welcome-image-container" style="background-image:url(/media/images/backlit-curve-dark-724712.width-1200.jpg)">
-    <p>Furkan Akmese</p>
-  </div>
-</div>
+			<!-- Gallery -->
+			<div class="gallery style2 medium lightbox onscroll-fade-in">
+				<article>
+					<a href="images/gripto.png" class="image">
+						<img src="images/gripto.png" alt="" />
+					</a>
+					<div class="caption">
+						<h3>Gripto</h3>
+						<p>A cryprocurrency tracking app for everyone. Made during an internship with React-Native for
+							iOS and Android.
+							Backend is made with Django.</p>
+						<ul class="actions fixed">
+							<li><span class="button small">Details</span></li>
+						</ul>
+					</div>
+				</article>
+				<article>
+					<a href="images/Yaper.png" class="image">
+						<img src="images/Yaper.png" alt="" />
+					</a>
+					<div class="caption">
+						<h3>Yaper</h3>
+						<p>A mobile app that connects to a temp agency's website and lets the user control their data
+							from there. Made with Dart and Flutter for both iOS and Android. </p>
+						<ul class="actions fixed">
+							<li><span class="button small">Details</span></li>
+						</ul>
+					</div>
+				</article>
+				<article>
+					<a href="images/Surfapp.png" class="image">
+						<img src="images/Surfapp.png" alt="" />
+					</a>
+					<div class="caption">
+						<h3>Untitled surf app</h3>
+						<p>An app for checking surf swell forecasts. Much like Magicseaweed but better looking and more
+							user friendly. As of now unfinished.</p>
+						<ul class="actions fixed">
+							<li><span class="button small">Details</span></li>
+						</ul>
+					</div>
+				</article>
+				<article>
+					<a href="images/oldsite.png" class="image">
+						<img src="images/oldsite.png" alt="" />
+					</a>
+					<div class="caption">
+						<h3>Old site</h3>
+						<p>My old personal website made with Django (Python) and the Wagtail CMS. Can be found at
+							furkanakmese.com/oldsite.</p>
+						<ul class="actions fixed">
+							<li><span class="button small">Details</span></li>
+						</ul>
+					</div>
+				</article>
+				<article>
+					<a href="images/gallery/fulls/05.jpg" class="image">
+						<img src="images/gallery/thumbs/05.jpg" alt="" />
+					</a>
+					<div class="caption">
+						<h3>More to come...</h3>
+						<!-- <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p> -->
+						<ul class="actions fixed">
+							<!-- <li><span class="button small">Details</span></li> -->
+						</ul>
+					</div>
+				</article>
+			</div>
 
-			
-				
+		</section>
 
-<div class="b-AboutMeContainer" data-id="aboutme">
-  <center>
-    <h1>
-      About me
-    </h1>
-  </center>
-  <div class="Container">
-    <div class="ImageContainer">
-      <img alt="IMG_20190713_171112.jpg" height="200" src="/media/images/IMG_20190713_171112.23d757de.fill-200x200-c200.jpg" width="200">
-    </div>
-    <div class="TextContainer">
-      <div class="rich-text"><p>Hello. My name is Furkan Akmese and I&#x27;m a 21 year old software engineering student and employee from The Netherlands. This website contains my projects and general information about me.</p></div>
-    </div>
-  </div>
-</div>
+		<!-- Six -->
 
-			
-				
+		<!-- Seven -->
+		<section class="wrapper style1 align-center">
+			<div class="inner medium">
+				<h2>Get in touch</h2>
+				<form action="https://formspree.io/f/mpzoqdok" method="POST">
+					<div class="fields">
+						<div class="field half">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" value="" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="email" name="_replyto" id="email" value="" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="6"></textarea>
+						</div>
+					</div>
+					<ul class="actions special">
+						<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+					</ul>
+				</form>
+			</div>
+		</section>
 
+		<!-- Footer -->
+		<footer class="wrapper style1 align-center">
+			<div class="inner">
+				<ul class="icons">
+					</li>
+					<li><a target="_blank" href="https://www.instagram.com/callmefurkan_/"
+							class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a>
+					</li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/furkan-akmese-b773a5161/"
+							class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a>
+					</li>
+					<li><a target="_blank" href="mailto:iamfurkanakmese@gmail.com" class="icon style2 fa-envelope"><span
+								class="label">Email</span></a></li>
+					<li><a target="_blank" href="https://www.youtube.com/@Callmefurkan/videos" class="icon brands style2 fa-youtube"><span
+						class="label">YouTube</span></a></li>
+				</ul>
+				<p>&copy; Furkan Akmese.</p>
+			</div>
+		</footer>
 
-<div class="parallax-container" data-id="developer">
-  <div class="parallax-image-container" style="background-image:url(/media/images/blake-connally-373084-unsplash.width-1200.jpg)">
-    <div class="parallax-text-container">
-      <center><h1>Me as a software developer</h1></center>
-      <div class="rich-text"><p>I began my intermediate vocational education at Landstede, Raalte in 2015. Since then I became more and more interested in the world of IT and established myself as somewhat of an all around developer who loves making native mobile apps. I&#x27;m currently enrolled at the Windesheim university of Applied Sciences, with the goal of getting my degree in software engineering and to one day work in the United States.</p></div>
-    </div>
-  </div>
-</div>
-
-			
-				
-
-<div class="b-AboutMeContainer" data-id="projects">
-  <center>
-    <h1>
-      Gripto
-    </h1>
-  </center>
-  <div class="Container">
-    <div class="ImageContainer">
-      <img alt="Screen Shot 2019-10-10 at 16.18.47.png" height="200" src="/media/images/Screen_Shot_2019-10-10_at_16..1dc467df.fill-200x200-c200.png" width="200">
-    </div>
-    <div class="TextContainer">
-      <div class="rich-text"><p>Gripto is a cryptocurrency platform meant to target both professional and casual cryptocurrency traders. I worked on the IOS/Android app, website and Api backend during my internship at Moor Interactive in Zwolle. Gripto is unfortunately not yet released, the website can be found <a href="https://gripto.io/">here</a>.</p></div>
-    </div>
-  </div>
-</div>
-
-			
-				
-
-<div class="b-AboutMeContainer" data-id="rockgame">
-  <center>
-    <h1>
-      Rockgame
-    </h1>
-  </center>
-  <div class="Container">
-    <div class="ImageContainer">
-      <img alt="Screenshot_20191010-164112.jpg" height="200" src="/media/images/Screenshot_20191010-164112.9824f6c3.fill-200x200-c200.jpg" width="200">
-    </div>
-    <div class="TextContainer">
-      <div class="rich-text"><p>When I first got into making mobile apps I worked on a little music guessing game that combined my love for music with my new found interest of app development. At first this was an IOS exclusive app written in objective C, but later I made it cross platform with the Xamarin framework in C#. This Android app can be downloaded <a href="https://drive.google.com/file/d/12EPiLU52v8Ik0DQFhcJyhLAidyox457c/view">here</a>.</p></div>
-    </div>
-  </div>
-</div>
-
-			
-				
-
-<div class="b-AboutMeContainer" data-id="windesheimapp">
-  <center>
-    <h1>
-      Windesheim schedule app
-    </h1>
-  </center>
-  <div class="Container">
-    <div class="ImageContainer">
-      <img alt="Windesheim-applogo" height="200" src="/media/images/Windesheim.2e16d0ba.fill-200x200-c200.png" width="200">
-    </div>
-    <div class="TextContainer">
-      <div class="rich-text"><p>Since Windesheim&#x27;s official mobile app is not the best looking and working app, I decided to make a more intuitive and better looking app for checking the school schedule. The app is cross platform and made with React-Native in JavaScript, and available for download <a href="https://drive.google.com/open?id=1skrmMxrFtnXNfP7NBuhCE7rO1p5n7knF">here</a> (just for Android).</p></div>
-    </div>
-  </div>
-</div>
-
-			
-				
-
-
-<div class="parallax-container" data-id="thiswebsite">
-  <div class="parallax-image-container" style="background-image:url(/media/images/IMG-20180319-WA0001.width-1200.jpg)">
-    <div class="parallax-text-container">
-      <center><h1>This website</h1></center>
-      <div class="rich-text"><p>While working at Moor Interactive in Zwolle I also learned to work with a content management system called Wagtail. Wagtail is the frontrunner for open source content management systems using the Django framework. After working with Django at Moor Interactive and attending the Wagtail Space event in Arnhem I decided to make my own personal website with Wagtail so it&#x27;s easy to scale and customize.</p></div>
-    </div>
-  </div>
-</div>
-
-			
-				
-
-<div class="image-collage-container" data-id="hobbies">
-  
-    <div class="image-collage-title"><center><h1>My hobbies</h1></center></div>
-  
-  <div class="image-container-inner-container">
-    
-      
-      <div class="image-collage-image-container" onClick="return true">
-        <div class="image-collage-image" style="background-image:url(/media/images/bowed-stringed-instrument-chord-classic-15941.width-1200.jpg)">
-          <div class="image-collage-text">
-            <center><h1>PLAYING GUITAR</h1></center>
-            <div class="rich-text"><p>I&#x27;ve been teaching myself how to play guitar for years now, and there&#x27;s not much more I love than playing old blues, rock or country hits.</p></div>
-          </div>
-        </div>
-      </div>
-    
-      
-      <div class="image-collage-image-container" onClick="return true">
-        <div class="image-collage-image" style="background-image:url(/media/images/hand-hands-music-210907.width-1200.jpg)">
-          <div class="image-collage-text">
-            <center><h1>PLAYING PIANO</h1></center>
-            <div class="rich-text"><p>Inspired by old rock &#x27;n roll pianists like Little Richard or Jerry Lee Lewis, I&#x27;m currently also teaching myself how to play the piano.</p></div>
-          </div>
-        </div>
-      </div>
-    
-      
-      <div class="image-collage-image-container" onClick="return true">
-        <div class="image-collage-image" style="background-image:url(/media/images/book-bindings-bookcase-books-694740.width-1200.jpg)">
-          <div class="image-collage-text">
-            <center><h1>READING</h1></center>
-            <div class="rich-text"><p>I like reading thrillers very much as well, mainly Stephen King ones...</p></div>
-          </div>
-        </div>
-      </div>
-    
-  </div>
-</div>
-
-			
-				
-
-<div class="image-collage-container" data-id="hobbies">
-  
-  <div class="image-container-inner-container">
-    
-      
-      <div class="image-collage-image-container" onClick="return true">
-        <div class="image-collage-image" style="background-image:url(/media/images/clem-onojeghuo-218551-unsplash.width-1200.jpg)">
-          <div class="image-collage-text">
-            <center><h1>MUSIC</h1></center>
-            <div class="rich-text"><p>Besides playing it, I always listen to it in my free time. I listen to a whole lot of different genres like rock, country, blues, soul, old pop or jazz. I even collect records from time to time.</p></div>
-          </div>
-        </div>
-      </div>
-    
-      
-      <div class="image-collage-image-container" onClick="return true">
-        <div class="image-collage-image" style="background-image:url(/media/images/architecture-bluebird-theatre-building-208647.width-1200.jpg)">
-          <div class="image-collage-text">
-            <center><h1>MOVIES</h1></center>
-            <div class="rich-text"><p>I like watching a variety of different movies. Anything from horror movies to thrillers or comedies.</p></div>
-          </div>
-        </div>
-      </div>
-    
-      
-      <div class="image-collage-image-container" onClick="return true">
-        <div class="image-collage-image" style="background-image:url(/media/images/airplane-airport-flying-9482.width-1200.jpg)">
-          <div class="image-collage-text">
-            <center><h1>TRAVELING</h1></center>
-            <div class="rich-text"><p>I like traveling a lot as well, I hope to be able to do a lot of it in the future.</p></div>
-          </div>
-        </div>
-      </div>
-    
-  </div>
-</div>
-
-			
-				<div class="business-outer-container" data-id="business">
-  <h1>What can I do for you?</h1>
-  <div class="rich-text"><p>Do you need a website for your business, or just to host your resumé? Send me an email and maybe I can help you with that!</p></div>
-  <a class="business-button-container" href="mailto:iamfurkanakmese@gmail.com">Contact me</a>
-</div>
-
-			
-				<div class="footer-container" data-id="contact">
-  <center>
-    <ul class="footer-list">
-      
-        <li>
-          <a href="mailto:iamfurkanakmese@gmail.com">
-            
-              <span class="icon-mail4"></span>
-            
-          </a>
-        </li>
-      
-        <li>
-          <a href="https://www.instagram.com/notfurkanakmese/">
-            
-              <span class="icon-instagram"></span>
-            
-          </a>
-        </li>
-      
-        <li>
-          <a href="https://www.linkedin.com/in/furkan-akmese-b773a5161/">
-            
-              <span class="icon-linkedin"></span>
-            
-          </a>
-        </li>
-      
-        <li>
-          <a href="https://github.com/furkanakmese">
-            
-              <span class="icon-github"></span>
-            
-          </a>
-        </li>
-      
-    </ul>
-    <!--<a href="#home" class="footer-button"><p>Back to top</p></a>-->
-  </center>
-</div>
-
-			
-		</div>
 	</div>
-</div>
 
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-        
-        <script type="text/javascript" src="/static/Personalwagtailsite/Personalwagtailsite.js"></script>
+</body>
 
-        
-            
-        
-    </body>
 </html>

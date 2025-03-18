@@ -1,204 +1,505 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>Me</title>
-	<meta charset="utf-8" />
-	<meta name="referrer" content="origin">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Me</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3f7d0504e1.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
-<body class="is-preload">
 
-	<!-- Wrapper -->
-	<div id="wrapper" class="divided">
+<body class="index-page">
 
-		<!-- One -->
-		<section
-			class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-			<div class="content">
-				<h1>Hi</h1>
-				<p class="major">My name is Furkan Akmese and I'm a 25 year old software engineer and musician from The Netherlands.
-					Keep scrolling if you wanna know more about me.
-				</p>
-				<ul class="actions stacked">
-					<li><a href="#first" class="button big wide smooth-scroll-middle">Read more</a></li>
-				</ul>
-			</div>
-			<div class="image">
-				<img src="images/Me.jpg" alt="" />
-			</div>
-		</section>
+  <header id="header" class="header d-flex flex-column justify-content-center">
 
-		<!-- Two -->
-		<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
-			id="first">
-			<div class="content">
-				<h2>Me as a professional</h2>
-				<p> I graduated from Windesheim university of applied sciences, Zwolle in 2022 with a Bacholors degree in software engineering.
-					Before that I finished a vocational education in the same field and I've been working as a mobile app developer
-					for around five years now. I've worked with frameworks like React (Native) and Vue.js but I mostly develop iOS & Android 
-					apps in Flutter. I've done general backend programming in Python and PHP but I consider myself to be mostly a frontend developer.
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
-				</p>
-			</div>
-			<div class="image" style="height: 600px;">
-				<img src="images/fancy-me.jpg" alt="" style="height: 600px;" />
-			</div>
-		</section>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active d-flex align-items-center justify-content-center"><i
+              class="fa-solid fa-house"></i><span>Home</span></a></li>
+        <li><a href="#about" class="active d-flex align-items-center justify-content-center"><i
+              class="fa-solid fa-user"></i><span>About</span></a></li>
+        <li><a href="#resume" class="active d-flex align-items-center justify-content-center"><i
+              class="fa-solid fa-file"></i><span>Resume</span></a></li>
+        <li><a href="#portfolio" class="active d-flex align-items-center justify-content-center"><i
+              class="fa-solid fa-guitar"></i><span>Portfolio</span></a></li>
+        <li><a href="#contact" class="active d-flex align-items-center justify-content-center"><i
+              class="fa-solid fa-envelope"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
 
-		<!-- Three -->
-		<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-			<div class="content">
-				<h2>Me as a musician</h2>
-				<p>
-					I've been a mostly self-taught musician for over ten years. Music is my biggest passion and I'm always trying to grow and improve by learning new instruments, playing with other musicians and writing my own music.
-					My main instrument is guitar and besides just playing, I also enjoy building them.
-					My musical influences range from early blues players like Eric Clapton, Albert King and Stevie Ray Vaughan to bands like Van Halen and Aerosmith. I'm very versatile and love to play in many different genres, from bluegrass pickin' to hair metal. 
-					You can check out <a target="_blank" href="https://www.youtube.com/@Callmefurkan/videos">this link</a> to see some of my covers.
-				</p>
-			</div>
-			<div class="image" style="height: 600px;">
-				<img src="images/resonator_me.png" alt="" style="height: 600px;" />
-			</div>
-		</section>
-		<section class="wrapper style1 align-center">
-			<div class="inner">
-				<h2>My work</h2>
-				<p> Here are some of the projects I've worked on. If you want to see more you can check out
-					my Github, the link is at the bottom of the page. My music can be found on my Instagram which is also linked down below </p>
-			</div>
+  </header>
 
-			<!-- Gallery -->
-			<div class="gallery style2 medium lightbox onscroll-fade-in">
-				<article>
-					<a href="images/gripto.png" class="image">
-						<img src="images/gripto.png" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Gripto</h3>
-						<p>A cryprocurrency tracking app for everyone. Made during an internship with React-Native for
-							iOS and Android.
-							Backend is made with Django.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/Yaper.png" class="image">
-						<img src="images/Yaper.png" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Yaper</h3>
-						<p>A mobile app that connects to a temp agency's website and lets the user control their data
-							from there. Made with Dart and Flutter for both iOS and Android. </p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/Surfapp.png" class="image">
-						<img src="images/Surfapp.png" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Untitled surf app</h3>
-						<p>An app for checking surf swell forecasts. Much like Magicseaweed but better looking and more
-							user friendly. As of now unfinished.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/oldsite.png" class="image">
-						<img src="images/oldsite.png" alt="" />
-					</a>
-					<div class="caption">
-						<h3>Old site</h3>
-						<p>My old personal website made with Django (Python) and the Wagtail CMS. Can be found at
-							furkanakmese.com/oldsite.</p>
-						<ul class="actions fixed">
-							<li><span class="button small">Details</span></li>
-						</ul>
-					</div>
-				</article>
-				<article>
-					<a href="images/gallery/fulls/05.jpg" class="image">
-						<img src="images/gallery/thumbs/05.jpg" alt="" />
-					</a>
-					<div class="caption">
-						<h3>More to come...</h3>
-						<!-- <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p> -->
-						<ul class="actions fixed">
-							<!-- <li><span class="button small">Details</span></li> -->
-						</ul>
-					</div>
-				</article>
-			</div>
+  <main class="main">
 
-		</section>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
 
-		<!-- Six -->
+      <img src="../images/surferbrodude-banner.png" alt="">
 
-		<!-- Seven -->
-		<section class="wrapper style1 align-center">
-			<div class="inner medium">
-				<h2>Get in touch</h2>
-				<form action="https://formspree.io/f/mpzoqdok" method="POST">
-					<div class="fields">
-						<div class="field half">
-							<label for="name">Name</label>
-							<input type="text" name="name" id="name" value="" />
-						</div>
-						<div class="field half">
-							<label for="email">Email</label>
-							<input type="email" name="_replyto" id="email" value="" />
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="6"></textarea>
-						</div>
-					</div>
-					<ul class="actions special">
-						<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
-					</ul>
-				</form>
-			</div>
-		</section>
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2>Hello</h2>
+            <p>I'm a <span class="typed"
+                data-typed-items="programmer, guitarist, singer, luthier, solo backpacker">...</span><span
+                class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+          </div>
+        </div>
+      </div>
 
-		<!-- Footer -->
-		<footer class="wrapper style1 align-center">
-			<div class="inner">
-				<ul class="icons">
-					</li>
-					<li><a target="_blank" href="https://www.instagram.com/callmefurkan_/"
-							class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a>
-					</li>
-					<li><a target="_blank" href="https://www.linkedin.com/in/furkan-akmese-b773a5161/"
-							class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a>
-					</li>
-					<li><a target="_blank" href="mailto:iamfurkanakmese@gmail.com" class="icon style2 fa-envelope"><span
-								class="label">Email</span></a></li>
-					<li><a target="_blank" href="https://www.youtube.com/@Callmefurkan/videos" class="icon brands style2 fa-youtube"><span
-						class="label">YouTube</span></a></li>
-				</ul>
-				<p>&copy; Furkan Akmese.</p>
-			</div>
-		</footer>
+    </section><!-- /Hero Section -->
+    <!-- About Section -->
+    <section id="about" class="about section" style="max-width: 800px; margin: 0 auto;">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>I was born on October 27th in Schiedam, the Netherlands and am currently based in Groningen. I graduated from
+          Windesheim university of applied sciences, Zwolle in 2022 with a bachelors degree in Software engineering and
+          have been making apps ever since. I love to experience new things and learn new skills, mainly by teaching
+          myself. I value my independence and my ability to figure new things out with no experience. </p>
+      </div><!-- End Section Title -->
+    </section><!-- /About Section -->
 
-	</div>
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up" style="max-width: 800px; margin: 0 auto;">
+        <h2>Skills</h2>
+        <p>My experience and skill level with the different languages and frameworks I've used</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>HTML/CSS</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>PHP</span> <i class="val">30%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>JavaScript/React</span> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Flutter</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Python/Django</span> <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>C#</span> <i class="val">20%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Work experience</h3>
+
+            <div class="resume-item">
+              <h4>Akyla/Textkernel, Enschede, Netherlands — mobile app developer</h4>
+              <h5>JAN 2020 - PRESENT</h5>
+              <p><em>App developer overseeing the development and deployment of e-UUR and its 25+ client apps</em></p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Mr Access, Nijverdal, Netherlands — Part time software engineer</h4>
+              <h5>OCT 2018 - JAN 2020</h5>
+              <p><em>Front- and backend engineer working on a crypto portfolio app and a handful of other projects using
+                  frameworks like React-native, Wagtail CMS and Django</em></p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Moor Interactive, Zwolle, Netherlands — Internship</h4>
+              <h5>FEB 2018 - JUL 2018</h5>
+              <p><em>Front- and backend engineer working on a crypto portfolio app and a handful of other projects using
+                  frameworks like React-native, Wagtail CMS and Django</em></p>
+            </div><!-- Edn Resume Item -->
+
+
+            <div class="resume-item">
+              <h4>Eazis Music and Systems, Almelo, Netherlands — Internship</h4>
+              <h5>SEP 2016 - JAN 2017</h5>
+              <p><em>All around software engineer working with Delphi and objective C(iOS)</em></p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Education and courses</h3>
+            <div class="resume-item">
+              <h4>Berklee college of music through Coursera - Guitar performance techniques</h4>
+              <h5>JAN 2024 - MARCH 2024</h5>
+              <p><em>Completed with 95.66% grade. Click <a href="https://coursera.org/verify/2SN3HUA5JRWR"
+                    target="_blank">HERE</a> to verify</em></p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="resume-item">
+                <h4>TOEFL IBT Home Edition English test— TOEFL</h4>
+                <h5>FEB 2023</h5>
+                <p><em>Total grade: 96</em></p>
+                <ul>
+                  <li>reading: 26;</li>
+                  <li>listening: 22;</li>
+                  <li>speaking: 26;</li>
+                  <li>writing: 22</li>
+                </ul>
+              </div><!-- Edn Resume Item -->
+
+              <div class="resume-item">
+                <h4>Windesheim university of applied sciences, Zwolle — HBO/bachelors degree</h4>
+                <h5>SEP 2018 - JUL 2022</h5>
+                <p><em>Bachelors degree in software engineering/IT</em></p>
+              </div><!-- Edn Resume Item -->
+
+              <div class="resume-item">
+                <h4>Landstede, Raalte - MBO/intermediate vocational education</h4>
+                <h5>SEP 2015 - JUL 2018</h5>
+                <p><em>Intermediate vocational degree in app development</em></p>
+              </div><!-- Edn Resume Item -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section" style="max-width: 800px; margin: 0 auto;">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Check out some of the projects I have worked on, from apps and websites to old vintage guitars I have
+          restored</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Apps</li>
+            <li data-filter=".filter-axe">Axes</li>
+          </ul>
+
+            <div id='test' class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+              
+            <!-- <link rel="preload" href="../images/squier.png" as="image">
+            <link rel="preload" href="../images/signature-strat.png" as="image">
+            <link rel="preload" href="../images/schedule.png" as="image">
+            <link rel="preload" href="../images/gibson.png" as="image">
+            <link rel="preload" href="../images/gripto3.jpg" as="image">
+            <link rel="preload" href="../images/oldsite.png" as="image">
+            <link rel="preload" href="../images/morris.png" as="image">
+            <link rel="preload" href="../images/first-app.png" as="image">
+            <link rel="preload" href="../images/maya.png" as="image">
+            <link rel="preload" href="../images/fvd.png" as="image">
+            <link rel="preload" href="../images/bandmate.jpeg" as="image">
+            <link rel="preload" href="../images/euur.jpeg" as="image"> -->
+
+            <div style="cursor: pointer; border-radius: 10px;"
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-axe"
+              onclick="window.location.href='details.html?i=0'">
+              <img src="../images/squier.png" class="img-fluid" alt="" style="border-radius: 10px;">
+              <div class="portfolio-info">
+                <h4>Squier strat</h4>
+              </div>
+            </div>
+
+            <div class="row gy-4 isotope-container" data-aos-delay="200">
+              <div style="cursor: pointer; border-radius: 10px;"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-axe"
+                onclick="window.location.href='details.html?i=1'">
+                <img src="../images/signature-strat.png" class="img-fluid" alt="" style="border-radius: 10px;">
+                <div class="portfolio-info">
+                  <h4>Signature stratocaster</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 isotope-container" data-aos-delay="200">
+              <div style="cursor: pointer; border-radius: 10px;"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+                onclick="window.location.href='details.html?i=5'">
+                <img src="../images/schedule.png" class="img-fluid" alt="" style="border-radius: 10px;">
+                <div class="portfolio-info">
+                  <h4>Windesheim schedule app</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 isotope-container" data-aos-delay="200">
+              <div style="cursor: pointer; border-radius: 10px;"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-axe"
+                onclick="window.location.href='details.html?i=2'">
+                <img src="../images/gibson.png" class="img-fluid" alt="" style="border-radius: 10px;">
+                <div class="portfolio-info">
+                  <h4>Gibson Les Paul</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 isotope-container" data-aos-delay="200">
+              <div style="cursor: pointer; border-radius: 10px; width: 100%; max-width: 60%;"
+                class="col-lg-6 col-md-12 portfolio-item isotope-item filter-app"
+                onclick="window.location.href='details.html?i=6'">
+                <img src="../images/gripto3.jpg" class="img-fluid" alt="" style="border-radius: 10px;">
+                <div class="portfolio-info">
+                  <h4>Gripto</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 isotope-container" data-aos-delay="200">
+              <div style="cursor: pointer; border-radius: 10px; width: 100%; max-width: 60%;"
+                class="col-lg-6 col-md-12 portfolio-item isotope-item filter-app"
+                onclick="window.location.href='details.html?i=7'">
+                <img src="../images/oldsite.png" class="img-fluid" alt="" style="border-radius: 10px;">
+                <div class="portfolio-info">
+                  <h4>Wagtail site</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 isotope-container" data-aos-delay="200">
+              <div style="cursor: pointer; border-radius: 10px;"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-axe"
+                onclick="window.location.href='details.html?i=3'">
+                <img src="../images/morris.png" class="img-fluid" alt="" style="border-radius: 10px;">
+                <div class="portfolio-info">
+                  <h4>Japanese vintage - Morris Les Paul</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 isotope-container" data-aos-delay="200">
+              <div style="cursor: pointer; border-radius: 10px;"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+                onclick="window.location.href='details.html?i=8'">
+                <img src="../images/first-app.png" class="img-fluid" alt="" style="border-radius: 10px;">
+                <div class="portfolio-info">
+                  <h4>My first app</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 isotope-container" data-aos-delay="200">
+              <div style="cursor: pointer; border-radius: 10px;"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-axe"
+                onclick="window.location.href='details.html?i=4'">
+                <img src="../images/maya.png" class="img-fluid" alt="" style="border-radius: 10px;">
+                <div class="portfolio-info">
+                  <h4>Japanese vintage - Maya Stratocaster</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 isotope-container" data-aos-delay="200">
+              <div style="cursor: pointer; border-radius: 10px; width: 100%; max-width: 60%;"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+                onclick="window.location.href='details.html?i=9'">
+                <img src="../images/fvd.png" class="img-fluid" alt="" style="border-radius: 10px;">
+                <div class="portfolio-info">
+                  <h4>Forumland website</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 isotope-container" data-aos-delay="200">
+              <div style="cursor: pointer; border-radius: 10px;"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+                onclick="window.location.href='details.html?i=10'">
+                <img src="../images/bandmate.jpeg" class="img-fluid" alt="" style="border-radius: 10px;">
+                <div class="portfolio-info">
+                  <h4>Bandmate</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 isotope-container" data-aos-delay="200">
+              <div style="cursor: pointer; border-radius: 10px;"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+                onclick="window.location.href='details.html?i=11'">
+                <img src="../images/euur.jpeg" class="img-fluid" alt="" style="border-radius: 10px;">
+                <div class="portfolio-info">
+                  <h4>e-UUR</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 isotope-container" data-aos-delay="200">
+              <div style="cursor: pointer; border-radius: 10px;"
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-axe"
+                onclick="window.location.href='details.html?i=12'">
+                <img src="../images/pearl.png" class="img-fluid" alt="" style="border-radius: 10px;">
+                <div class="portfolio-info">
+                  <h4>Pearl Les Paul</h4>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </section><!-- /Portfolio Section -->
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up" style="max-width: 800px; margin: 0 auto;">
+        <h2>Get in touch</h2>
+        <p>I'm always interested in new projects to be part of. Whether it's a cool idea for an app, making music
+          together or an old six-string that needs repair/setting up. Email me <a
+            href="mailto:iamfurkanakmese@gmail.com">here</a> and let's create something!</p>
+      </div><!-- End Section Title -->
+    </section><!-- /Contact Section -->
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-solid fa-envelope"></i></a>
+      </div>
+
+
+
+      <p>&copy; Furkan Akmese</p>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- <script>
+    $(document).ready(function () {
+      $.getJSON('info.json', function (data) {
+        $.each(data, function (key, value) {
+          var portfolioItem = `
+          
+        <div style="cursor: pointer; border-radius: 10px;"
+              class="col-lg-4 col-md-6 portfolio-item isotope-item filter-axe"
+              onclick="window.location.href='details.html?i=0'">
+              <img src="../images/squier.png" class="img-fluid" alt="" style="border-radius: 10px;">
+              <div class="portfolio-info">
+                <h4>Squier strat</h4>
+              </div>
+            </div>
+        `;
+          document.getElementById('test').innerHTML += portfolioItem;
+        });
+      });
+    });
+  </script> -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
