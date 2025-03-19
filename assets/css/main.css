@@ -1175,7 +1175,7 @@ section,
 
   .portfolio-details .swiper-button-prev,
   .portfolio-details .swiper-button-next {
-    display: none;
+    display: block;
   }
 }
 
