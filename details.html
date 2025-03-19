@@ -83,20 +83,37 @@
           <div class="swiper-wrapper align-items-center">
 
             <div class="swiper-slide">
-              <img id="image1" src="" alt="" style="max-height: 500px; width: auto;">
+              <img class="caroussel-image" id="image1" src="" alt="" style="max-height: 500px; width: auto;">
             </div>
 
             <div class="swiper-slide" id="slide2" style="display: none;">
-              <img id="image2" src="" alt="" style="max-height: 500px; width: auto;">
+              <img class="caroussel-image" id="image2" src="" alt="" style="max-height: 500px; width: auto;">
             </div>
 
             <div class="swiper-slide" id="slide3" style="display: none;">
-              <img id="image3" src="" alt="" style="max-height: 500px; width: auto;">
+              <img class="caroussel-image" id="image3" src="" alt="" style="max-height: 500px; width: auto;">
             </div>
 
             <!-- <div class="swiper-slide" id="slide4" style="display: none;"></div>
               <img id="image4" src="" alt=""> 
             </div> -->
+
+            <style>
+              @media (max-width: 768px) {
+                .caroussel-image { 
+                  height: auto !important;
+                  max-height: 100% !important;
+                  width: 100% !important;
+                }
+              }
+
+              @media (min-width: 769px) {
+                .caroussel-image {
+                  max-height: 500px !important;
+                  width: auto !important;
+                }
+              }
+            </style>
 
           </div>
           <div class="swiper-button-prev"></div>
