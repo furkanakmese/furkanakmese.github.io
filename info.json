@@ -2,28 +2,28 @@
     {
         "title": "Squier strat",
         "text": "This Squier bullet stratocaster is my first ever electric guitar and I bought it for 80 euros. It was a real beginner guitar but after a few months I already felt the need to give it some upgrades. Using my background in IT and some tools I had laying around I started by replacing the bridge pickup with a Kluson Texas Blues single coil. I picked this one ‘cause I love SRV and ZZ Top and the real Fender Texas Specials were too expensive to start with. The pickup came unshielded out of the box and it was unbearably noisy, so I decided to shield it myself with some extra wires and copper tape. I was surprised how well it worked and it made the guitar sound much better. In the neck position I added a Gibson mini humbucker I picked up in a guitar store, partly ‘cause I had never seen one in a strat and I wanted my only electric guitar to be as versatile as possible. The middle position I left empty since I didn’t use it at the time and I figured it would work as a type of killswitch which I loved. The neck I replaced with a maple fretboard neck I found in another guitar store for 90 euros to test out the differences between rosewood and maple fretboards. I also learned to set this guitar up to the best of my ability, which is something that I’m always improving. I never knew how many tiny differences change the way a guitar plays and sounds. Even though it turned into a real frankenstrat this guitar will always hold a special place in my heart since it was a major improvement from the initial Squier and because it sparked my love for working on guitars.",
-        "image_url1": "../images/squier.png",
+        "image_url1": "../images/squier.jpg",
         "type": "axe",
         "index": 0
     },
     {
         "title": "My signature stratoscaster",
         "text": "This is my first attempt at making a guitar from scratch and it still is my favorite project. I wanted something that would give me room to be creative but also result in a good real stratocaster. Using what I learned from my souped-up Squier, I wanted to create what I consider my personal signature model. The neck is a real Fender maple strat neck with a C profile and the big headstock which I love. The body is a vintage white colored strat body from a British guitar store and the neck/middle pickups are Fender Texas Specials to emulate the sound of one of my guitar heroes, Stevie Ray Vaughan. I also put in a lefty bridge like as a little nod to SRV and Jimi Hendrix, but also to make the guitar a little more unique. Lefty headstocks I find a little overdone but a left-handed bridge you almost never see. To add to the uniqueness I also added a Gibson ’59 PAF humbucker in the bridge, cause I wanted the guitar to be as versatile as the music I play. For the electronics I wanted to keep it as old school as possible so I put in 500k pots and a paper-in-oil capacitor and finished the guitar off with the most psychedelic pickguard I could find.",
-        "image_url1": "../images/signature-strat.png",
+        "image_url1": "../images/signature-strat.jpg",
         "type": "axe",
         "index": 1
     },
     {
         "title": "Gibson Les Paul",
         "text": "This is my Gibson 60’s tribute Les Paul from 2011. When I bought it, it was already in good shape but it needed a little bit of work on the frets and the electronics. From what I could see it looked as thought the frets might have been replaced at some point and the edged were sharp on some of the frets. I fixed the fret edges and polished the frets until it sounded as new again and I changed the nut and put in a bone nut to add to the vintage vibe of the guitar. The bridge pickup signal would occasionally get disrupted when adjusting the volume so I replaced some of the wires to fix that. I also adjusted the setup so it plays the way I like my guitars to play.",
-        "image_url1": "../images/gibson.png",
+        "image_url1": "../images/gibson.jpg",
         "type": "axe",
         "index": 2
     },
     {
         "title": "Japanese vintage - Morris Les Paul",
         "text": "This Japanese Les Paul is my most recent project. From what I can tell it’s most likely from the 70s or 80s and it was in rough shape when I found it. Based on the open-book headstock and pearl inlays I would assume it’s a pre lawsuit era guitar but it needed a lot of work to make it playable again. I started by filing and polishing all the frets since some of them were uneven or completely sharp on the edges. The binding was starting to fall off of the neck so I made sure this was re-applied as well. \\n\\n The ground wire from the bridge was broken so I made sure to ground the guitar again and used copper tape inside the body. This Les Paul is extremely light because it’s almost completely hollow so I made sure to ground the cavity properly to avoid unwanted noise. \\n\\n The original Maxon pickup was completely disassembled but still functional after I managed to put it back together, and for fun I added another humbucker in the middle ‘cause I love the look and sound of an HHH Les Paul. I added a push-pull pot to make use of the pickup’s coil splitting and wired the electronics using a 50s style schematic because I love the differences in tone when rolling the volume down.",
-        "image_url1": "../images/morris.png",
+        "image_url1": "../images/morris.jpg",
         "image_url2": "../images/morris-PJ.jpg",
         "type": "axe",
         "index": 3
@@ -31,7 +31,7 @@
     {
         "title": "Japanese vintage - Maya stratocaster",
         "text": "This guitar right here is my first attempt at restoring a vintage Japanese guitar. Don’t let the headstock fool you, it’s a Japanese Maya stratocaster from the 70’s and it was in poor health when I bought it for 60 euros. I started out by replacing some of the electronics inside, including replacing the original 3-way switch for a 5-way. The middle pickup was broken so I opened it up and re-soldered the copper wire to the solder connection as carefully as possible. The neck was in especially rough shape, so I started by fixing the truss rod and replacing the nut with a new bone nut since I love the vintage tone that these give. I did everything I could to save the original frets and after very careful sanding and polishing they sound as good as they can. I also replaced the tuners and I decided to strip some of the coating and replace the decal with a Fender one out of personal preference. I re-finished the headstock and oiled the fretboard and I’ve been loving this guitar ever since. From what I can tell it probably was never a very high quality guitar, but due to decades of aging it feels and sounds vintage in a way that the first strat I built can only try to emulate. The pickups sound incredible and the fretboard feels smoother than my maple neck, I even love the light buzzing of the strings against the tiny worn down frets.",
-        "image_url1": "../images/maya.png",
+        "image_url1": "../images/maya.jpg",
         "type": "axe",
         "index": 4
     },
@@ -47,14 +47,14 @@
         "text": "In 2018 during my final year of my vocational education ‘Application Development’, I interned at Moor Interactive in Zwolle, Overijssel. The price of Bitcoin skyrocketed during this time and cryptocurrencies became very popular. This led to Moor Interactive working on a beginner friendly crypto portfolio app/website called ‘Gripto’. Gripto was my main project for this internship.\\n\\n By this time I had some experience making apps in the C# Xamarin framework, but for this project I learned to use React, React-native, Redux and Django. At first it was challenging to learn these new frameworks and programming languages, but luckily I worked in a small team and I picked it up fast. As an intern it was my job to do a little of everything: front-end, back-end, database management and designing some small custom components within the app. I learned a lot during this time and I not only grew as a programmer, but I became fluent with frameworks and languages that I used throughout the years after.\\n\\n Unfortunately I’m not sure what happened with Gripto since my internship ended but as far as I know it was never released. I would’ve really loved to see Gripto get published but nevertheless I’m happy with my contribution to the project and what I learned while working on it.\\n\\n",
         "image_url1": "../images/gripto2.jpg",
         "image_url2": "../images/gripto3.jpg",
-        "image_url3": "../images/gripto-dashboard.png",
+        "image_url3": "../images/gripto-dashboard.jpg",
         "type": "app",
         "index": 6
     },
     {
         "title": "Wagtail CMS - Portfolio website",
         "text": "In 2018 I worked as an intern at Moor Interactive in Zwolle, Overijssel. I worked on multiple projects, mostly using React(-native) and Python’s Django framework. After getting acquainted with Django I decided to dive into Wagtail and use it to make a new resume website. Wagtail is a Django CMS similar to Wordpress except it requires more coding, which I liked because it meant I could learn more about Django. Before starting this internship my experience with web development was limited to PHP, which I was never a big fan of.\\n\\n That same year in Arnhem, me and my boss attended Wagtail Space, a global conference regarding all things Wagtail. People come together to work on new features for Wagtail and watch presentations by various speakers about different aspects of Wagtail and other relevant topics. Before the end of my internship I had made a decent resume site by using what I learned. At first I hosted it in AWS because I wanted to try using the platform, but later I opted to host the static website on Github Pages since it’s much easier and free to use. The website can be found <a href='/wagtailsite/index.html'>here</a>.",
-        "image_url1": "../images/oldsite.png",
+        "image_url1": "../images/oldsite.jpg",
         "image_url2": "../images/wagtailspace.jpg",
         "type": "app",
         "index": 7
@@ -62,14 +62,14 @@
     {
         "title": "My first app",
         "text": "In 2016 while completing my intermediate vocational education at Landstede, Raalte I worked as an intern at Eazis music & systems in Almelo. Eazis is a company that makes music computers and software for bars, restaurants, clubs etc. and I worked on a bit of everything. Some of my tasks included: \\n\\n - Learning to use Photoshop to create custom images for the music software;\\n - Updating the music libraries;\\n - Going along with computer repair technicians to clients experiencing issues;\\n - Learning about app development by making my first app.\\n\\n My main job was to help develop their new Jukebox app that worked in tandem with their main music software, which was challenging since I had no prior experience with mobile apps. To help me get acquainted with app development I created a basic quiz game together with my boss. I combined my love and knowledge of old music with app development and the final result was a game where you guess what song/artist/album is presented. Originally it was made for iOS in Objective C but later when I started working with C# I remade it using Xamarin. Unfortunately the debug build of the app stopped working after a while but above you can see what it used to look like. The background I created in Photoshop.",
-        "image_url1": "../images/first-app.png",
+        "image_url1": "../images/first-app.jpg",
         "type": "app",
         "index": 8
     },
     {
         "title": "Forumland website",
         "text": "A few years ago I was asked by a friend to help create a proof-of-concept website for ‘Forumland’, an idea by the political party Forum voor democratie. A teacher at Saxion university of applied sciences who’s acquainted with the party leader asked us to make it in a week and this is what we came up with. Regardless of my own political views I thought it was an exciting project to be part of and I enjoyed working on it. \\n\\n The site was made using React since this was what I was learning at the time and it helped us quickly create a functional proof-of-concept site. As far as I’m aware, FVD did not pursue the idea for Forumland so the site never went live, but I’m happy I got the opportunity to work on something for a big client.",
-        "image_url1": "../images/fvd.png",
+        "image_url1": "../images/fvd.jpg",
         "image_url2": "../images/fvd-vid.gif",
         "type": "app",
         "index": 9
@@ -92,7 +92,7 @@
     {
         "title": "Vintage Pearl Les Paul",
         "text": "This Les Paul is the newest addition to my collection of vintage axes: a Pearl Les Paul, made in Japan in the early 70s. With a completely solid body, a glued-on neck and 450k pots it’s the most high quality Japanese guitar I’ve ever found. From what I can tell it’s all original, including the frets and Maxon humbuckers and it sounds unbelievable.\\n\\n The only work I had to do on this Pearl Les Paul was the setup, since I don’t know when it’s been set up last and I like my guitars to have light gauge strings and low action. I started by adjusting the truss rod to fix some back bow and then I properly set the nut height. The bridge was not in great condition so I switched it out for a Gibson tune-o-matic. This beautiful Les Paul was already in great condition and needed very little work, but now it’s perfect for my style of playing.",
-        "image_url1": "../images/pearl.png",
+        "image_url1": "../images/pearl.jpg",
         "type": "axe",
         "index": 12
     }
