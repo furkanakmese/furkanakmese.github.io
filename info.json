@@ -95,5 +95,13 @@
         "image_url1": "../images/pearl.jpg",
         "type": "axe",
         "index": 12
+    },
+    {
+        "title": "Tripbuddy",
+        "text": "In my 3rd year of college I took part in an entrepreneurship specialization. For this semester me and a small group of non-programmers worked on creating an app for solo travelers looking to connect. At the time I was traveling a lot and through meeting people and my own experiences I came up with this idea as a kind of replacement for couchsurfing. This was a great project to work on since I myself am the target audience for the app, which meant I had plenty of ideas to bring to the table. Since this wasn’t strictly an IT semester I worked with a lot of people who weren’t familiar with mobile app development. This meant I would be the only one programming which came with its challenges.\\n\\n Before working on the app I made some mockup designs in Sketch and once they were approved by the team I started creating the app. The app was made for iOS, Android and the basic functionality worked on web as well. Of course I opted to use Flutter for this project, especially since I would be making it alone and needed to save as much time as possible. I used Google’s APIs to handle authentication, location services and database management because it works so seamlessly with Flutter.\\n\\n Towards the end of the semester the plan was to release a beta version to a small number of people, but unfortunately this didn’t come to fruition. The concept of the app relies too much on a large active user base and the app wasn’t polished enough to attract the necessary users. For that reason we decided to not release it at the time, but I’m still very proud of the end result and the progress I made in just a few months.",
+        "image_url1": "../images/tripbuddy.jpeg",
+        "image_url2": "../images/tripbuddy-gif.gif",
+        "type": "app",
+        "index": 13
     }
 ]
