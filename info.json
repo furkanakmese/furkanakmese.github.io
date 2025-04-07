@@ -103,5 +103,13 @@
         "image_url2": "../images/tripbuddy-gif.gif",
         "type": "app",
         "index": 13
+    },
+    {
+        "title": "Waves",
+        "text": "Back in 2020 I got really into surfing and started going to the beach a lot. Since the Netherlands isn’t exactly known for having good waves I relied a lot on the Surfline app to figure out when surf conditions were right. Around this time I was already busy making apps so I figured this would be a good opportunity to make my own version.\\n\\n The Surfline app is great and I didn’t have trouble using it, but I thought I’d be able to make a more tailored app for myself to use. Since I was just a beginner I didn’t need all the data Surfline offered and I wanted to make something more lightweight and simple. Using Flutter and a free weather API I found online I made this app in just a few weeks and started using it whenever I wanted to go out surfing. It was through little projects like this that I really started to get into making apps and finding ways I could use them in my every day life.",
+        "image_url1": "../images/waves.jpeg",
+        "image_url2": "../images/waves-gif.gif",
+        "type": "app",
+        "index": 14
     }
 ]
