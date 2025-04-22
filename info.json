@@ -90,7 +90,7 @@
         "index": 11
     },
     {
-        "title": "Vintage Pearl Les Paul",
+        "title": "Japanese vintage - Pearl Les Paul",
         "text": "This Les Paul is the newest addition to my collection of vintage axes: a Pearl Les Paul, made in Japan in the early 70s. With a completely solid body, a glued-on neck and 450k pots it’s the most high quality Japanese guitar I’ve ever found. From what I can tell it’s all original, including the frets and Maxon humbuckers and it sounds unbelievable.\\n\\n The only work I had to do on this Pearl Les Paul was the setup, since I don’t know when it’s been set up last and I like my guitars to have light gauge strings and low action. I started by adjusting the truss rod to fix some back bow and then I properly set the nut height. The bridge was not in great condition so I switched it out for a Gibson tune-o-matic. This beautiful Les Paul was already in great condition and needed very little work, but now it’s perfect for my style of playing.",
         "image_url1": "../images/pearl.jpg",
         "type": "axe",
@@ -112,5 +112,12 @@
         "image_url3": "../images/waves-web.gif",
         "type": "app",
         "index": 14
+    },
+    {
+        "title": "Japanese vintage - Pearl SG",
+        "text": "This beautiful vintage Pearl SG was found by my friend online and needless to say he couldn’t pass up on it. Just like my own Les Paul of the same Japanese brand it’s a fantastic axe with a glued-on neck as opposed to the bolt on ones that are most prevalent. It was already in great condition for a 50+ year old guitar but some small fixes were necessary to make it perfect for his style of playing.\\n\\n Firstly I started by setting the guitar up the way he likes it, with low action and 9 - 46 gauge strings. When lowering the action to about 1-1.5mm I noticed one of the frets was a little bit higher than the rest, which was really only noticeable when playing it with such low action. After very carefully sanding and polishing the fret the sustain improved and the slight buzzing almost entirely went away. I also looked at the electronics and wires and replaced a few wires that weren’t looking too good to avoid signal loss or future problems. Finally I finished the rest of the setup and everything felt and sounded perfect.",
+        "image_url1": "../images/SG_Pearl.jpg",
+        "type": "axe",
+        "index": 15
     }
 ]
